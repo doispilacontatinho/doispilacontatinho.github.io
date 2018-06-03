@@ -5,7 +5,7 @@ html, body {
 
 html, body, main {
   height: 100%;
-  background-color: #AA3939;
+  background-color: #FFAAAA;
 }
 
 main {
@@ -17,3 +17,37 @@ main {
 #bunny {
   box-shadow: 3px 3px;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+}
+
+.logo_content {
+  position: relative;
+  width: 3em;
+  height: 3em;;
+}
+
+.logo__heart, .logo__money {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+}
+
+.logo__heart {
+  top: -1em;
+  right: -1em;
+  animation: linear infinite alternate;
+  animation-name: logo;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes logo {
+  0% { right: -1em;}
+  50%{ right : -.8em;}
+  100%{ right: -1em;}
+}
+
