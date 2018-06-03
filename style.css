@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 html, body, main {
@@ -27,19 +28,23 @@ main {
 
 .logo_content {
   position: relative;
-  width: 3em;
-  height: 3em;;
+  width: 4em;
+  height: 4em;
+  background-color: #e25959;
+  border-radius: 50%;
 }
 
 .logo__heart, .logo__money {
   position: absolute;
+  top: .5em;
+  right: .5em;
   width: 3em;
   height: 3em;
 }
 
 .logo__heart {
-  top: -1em;
-  right: -1em;
+  top: -.5em;
+  right: -.5em;
   animation: linear infinite alternate;
   animation-name: logo;
   animation-duration: 2s;
@@ -51,3 +56,8 @@ main {
   100%{ right: -1em;}
 }
 
+.box {
+  border: 4px solid #444a53;
+  border-radius: 10px;
+  background-color: #D66A6A;
+}
