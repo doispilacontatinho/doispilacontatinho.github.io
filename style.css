@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, main {
+  height: 100%;
+  background-color: #AA3939;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bunny {
+  box-shadow: 3px 3px;
+}
