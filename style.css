@@ -15,7 +15,12 @@ main {
   justify-content: center;
 }
 
-#bunny {
+
+#bunny h3 {
+  color: white;
+}
+
+#bunny iframe {
   box-shadow: 3px 3px;
 }
 
