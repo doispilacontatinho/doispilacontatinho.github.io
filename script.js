@@ -7,6 +7,6 @@ btn.addEventListener('click', function() {
   bunny.style.display = 'block';
 
   setTimeout(function () {
-    window.location.href = 'https://stackoverflow.com/questions/503093/how-do-i-redirect-to-another-webpage'
+    window.location.href = 'https://goo.gl/forms/zvDGEZaZPm8vTcNk1'
   }, 4000)
 })
